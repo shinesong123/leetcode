@@ -9,7 +9,7 @@ Given input array A = [1,1,2],
 Your function should return length = 2, and A is now [1,2].
 */
 
-//two pointers,one traverse and update (i-1); one keep distinct
+//two pointers,one traverses and update (i-1); one keeps distinct
 //Just keep the top A is distinct is enough. The followings, leave them there. 
 public class Solution {
     public int removeDuplicates(int[] A) {
