@@ -1,3 +1,0 @@
-leetcode
-========
-leetcode solutions 
