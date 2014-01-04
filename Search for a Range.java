@@ -9,7 +9,7 @@ For example,
 Given [5, 7, 7, 8, 8, 10] and target value 8,
 return [3, 4].
 */
-
+// 找到该值,再找上下界时,也要用二分搜索
 // should change classic binary search to find the lower and upper bound
 public class Solution {
     public int[] searchRange(int[] A, int target) {
