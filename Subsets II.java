@@ -24,19 +24,17 @@ public class Solution {
         res.add(new ArrayList<Integer>());  
         
         int start=0;
-        for(int i=1; i<num.length; i++){
+        for(int i=0; i<num.length; i++){
             int size=res.size();
-            for(int j=start; j<res.size();j++){
+            for(int j=start; j<size;j++){
                 ArrayList<Integer> temp=new ArrayList<Integer>(res.get(j));
-                temp.add(num[j]);
+                temp.add(num[i]);
                 res.add(temp);
             }
-            if(j<num.length-1 && num[j+1]==num[j]){
-                start=size// should use previous size, so need to create one more to store
-            }else{
+            if(i<num.length-1 && num[i+1]==num[i]){
+                start=size;// should use previous size, so need to create one more to store
+            }else
                 start=0;
-            }
-            
         }
         return res;
         
