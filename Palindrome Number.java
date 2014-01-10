@@ -15,7 +15,7 @@ There is a more generic way of solving this problem.
 
 // define negative is not palindrome
 // Math.pow will return double; should add (int) in front, will loss precison
-// should pay attention to cases : 1000110001-- getDigit will be wrong
+// should pay attention to cases : 1000110001-- getDigit will be wrong 使用x/power就能取到最高位的0
 
 public class Solution {
     public boolean isPalindrome(int x) {
