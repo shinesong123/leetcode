@@ -26,7 +26,8 @@ Return 6.
  // Recusion的方法里,当root==null, 要return 0, 而非MIN_VALUE, 会毁了之前的全部路径
  // Math.max(a,b) could only compare two elements!!!!!!!!!!!!!!
  
- // dfs大部分时候就是recursion
+ // dfs是什么,就是死往下找,一直找到没得找,大部分时候就是recursion; 大部分时候你想的就是dfs. bfs反倒比较少用.
+ // dfs只是一种思想,没有具体对应的一定不变的代码
  
  /* 举例说明: 同max subarray那题
         D 
