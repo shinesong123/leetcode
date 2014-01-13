@@ -13,6 +13,8 @@ Some examples:
 
 // convert String to int: Integer.parseInt(s)
 
+// String.valueOf(int i) == Integer.toString(i)
+
 public class Solution {
     public int evalRPN(String[] tokens) {
         int res=0;
