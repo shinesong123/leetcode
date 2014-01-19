@@ -44,8 +44,7 @@ cur是栈顶元素
 
 
 另一种方法是用两个栈, 在一个栈里,先序遍历的方法, 但是先压左,再压右;然后用另一个栈把它倒过来. 
-原理就是先序遍历(略改)反过来就是后序遍历!!!!!后序可以像先序一样,顺序都排好在一个栈里, 直接打印就好了. 
-*/
+原理就是先序遍历(略改)反过来就是后序遍历!!!!!后序可以通过先序,让节点按顺序都排好在一个栈里, 直接打印就好了. */
 public class Solution {
     public ArrayList<Integer> postorderTraversal(TreeNode root) {
         ArrayList<Integer> res= new ArrayList<Integer>();
